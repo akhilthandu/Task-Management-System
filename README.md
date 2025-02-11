@@ -1,2 +1,2 @@
 # Task-Management-System
-Web Application for managing Tasks developed using React JS, Express JS and mongoDB
+Web Application for managing Tasks developed using React JS, Express JS and MongoDB
