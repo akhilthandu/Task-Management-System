@@ -1,0 +1,363 @@
+.project-page {
+    position: relative;
+    padding:  20px 40px;
+    background-image: radial-gradient(circle, rgba(164, 181, 152, 1), rgba(226, 218, 208, 1));
+    min-height: 100vh; /* Ensure the dashboard takes up the full height of the viewport */
+}
+
+.main-upload-button{
+  width:fit-content;
+  border-radius: 5px;
+  border: none;
+  padding: 5px 10px;
+  background-color: #95bb8f;
+  color: #000000;
+}
+
+.search-box-class{
+  width: fit-content;
+  height: fit-content;
+
+}
+
+/* Dropdown list */
+.dropdown-list {
+  list-style-type: none;
+  margin: 0px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  max-height: 200px;
+  overflow-y: auto;
+  position:relative;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  background-color: #fff;
+  z-index: 100;
+}
+
+/* Dropdown item */
+.dropdown-item {
+  padding: 10px;
+  cursor: pointer;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.project-title {  
+    color:#1A4D2E;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    font-weight: bold;
+    margin: 0;
+    flex-grow: 0;
+    
+}
+
+.due-doc-container {
+  background-color: #E2DAD0;
+  padding: 5px 10px;
+  border-radius: 5px;;
+}
+
+.title-and-progress{
+    display: flex;
+    flex-direction: row; /* Align items in a row */
+    justify-content: space-between; /* Space out elements */
+    align-items: center; /* Vertically center elements */
+    width: 100%; /* Optional: Set container width to 100% of its parent */
+    padding: 10px 10px;
+    border-radius: 5px;
+    flex-wrap: wrap;
+     /* Light cream background */
+    
+
+}
+
+.horizontal-line {
+    height: 2px;
+    width: 100%;
+    background-color: #3A3A3A; /* Choose your color */
+    margin: 10px 0; /* Add space around the line */
+  }
+  
+
+
+
+/* Custom progress bar container */
+.custom-progress-bar {
+    background-color: #3A3A3A; /* Light Cream */
+    color:#1A4D2E;
+    border-radius: 5px;
+    min-height: 50px;
+    min-width: 50%;
+    max-width: 25%;
+    margin-top: 5px;
+    margin-left: auto;
+}
+
+/* Progress fill color */
+.custom-progress-bar .progress-bar {
+    background-image: linear-gradient(45deg, #1A4D2E, #4F6F52);
+    color:#111111bd;
+    font-weight: bold;
+    font-size: large ;
+    
+    height: 100% ; /* Fill the height of the container */
+    border-radius: 5px;
+    text-align: center;
+}
+
+.custom-progress-bar .progress {
+    background-image: linear-gradient(45deg, #C2A9A1, #A3B7A0); /* Match the background */
+    border-radius: 5px; /* Keep it rounded */
+    min-height: 50px;
+    width: 100%;
+    border: 1px solid #111111;
+}
+
+/* Centering the label within the progress bar */
+.custom-progress-bar .progress-bar span {
+    color: #1A4D2E; /* Beige text color for contrast */
+    font-weight: bold;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.membername {
+    font-weight: bold;
+    flex-grow: 0;
+    margin: 0;
+}
+
+.member-progress-bar {
+    background-color: #3A3A3A; /* Light Cream */
+    color:#1A4D2E;
+    border-radius: 5px;
+    min-height: 25px;
+    width: 50%;
+    margin-top: 0px;
+    flex-shrink: 0;
+    margin-left: auto;
+}
+
+/* Progress fill color */
+.member-progress-bar .progress-bar {
+    background-image: linear-gradient(45deg, #1A4D2E, #4F6F52);/* Soft Green */
+    color:#111111bd;
+    font-weight: bold;
+    height: 100% ; /* Fill the height of the container */
+    border-radius: 5px;
+    text-align: center;
+}
+
+.member-progress-bar .progress {
+    background-image: linear-gradient(45deg, #C2A9A1, #A3B7A0); /* Match the background */
+    border-radius: 5px; /* Keep it rounded */
+    min-height: 30px;
+    border: 1px solid #111111;
+}
+
+/* Centering the label within the progress bar */
+.member-progress-bar .progress-bar span {
+    color: #1A4D2E; /* Beige text color for contrast */
+    font-weight: bold;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.button-style {
+  background-color: #4F6F52;
+  color: #E8DFCA;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-weight: 800;
+  border: none;
+  padding: 8px 12px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.button-style:hover {
+  background-color: #4f6f52ee !important;
+}
+
+.edit-button:hover {
+  background-color: #4f6f52ee !important;
+}
+
+.manage-style:hover {
+  background-color: #4f6f52ee !important;
+}
+
+.edit-button {
+  background-color: #4F6F52; /* Soft green */
+  color: #E8DFCA;
+  border: none;
+  margin-left: 15px;
+  padding: 8px 12px;
+  cursor: pointer;
+  border-radius: 5px;
+  flex-shrink: 0;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+  .manage-style {
+    background-color: #4F6F52;
+    color: #E8DFCA;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: 800;
+    border: none;
+    padding: 8px 12px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    cursor: pointer;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+  }
+
+  .members-container {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    max-width: 100%;
+    border-radius: 5px;
+  }
+
+  
+  .duedateclass {
+    font-size: 1rem;
+    font-weight: 800;
+    color: #3d3d3d;
+    background-color: #4f6f5277;
+    padding: 8px 12px;
+    border-radius: 5px;
+    display: inline-block;
+  }
+
+  .member {
+
+    flex: 1 1 calc(33.33% - 40px); /* Ensures responsive design */
+    min-width: 50%;
+    max-width: 100%;
+    min-height: 50px; /* Ensures a minimum height */
+     /* Matches the project card background */
+    padding: 10px;
+    cursor: default; /* Not clickable */
+    transition: transform 0.3s ease;
+    color:#3a3a3a; /* Matches color scheme */
+    background-color: #0000001e;
+    border-radius: 5px;
+  
+    display: flex;
+    flex-direction: row;
+    justify-content:baseline; /* Center the elements vertically */
+    align-items:baseline; /* Center the elements horizontally */
+    text-align: baseline; /* Center text within the card */
+  }
+  
+  .modal-overlay {
+    position:fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+
+  .search-box-class{
+    width: fit-content;
+    height: fit-content;
+  }
+  
+  .modal-content {
+    background-image: radial-gradient(circle, rgba(226, 218, 208, 0.95) 0%, rgba(245, 237, 224, 1) 100%) !important;
+    padding: 20px;
+    border-radius: 5px !important;
+    
+    width: 400px;
+    max-width: 600px;
+  }
+
+.modal-content input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-image: radial-gradient(circle, rgba(226, 218, 208, 1), rgba(164, 181, 152, 1),);
+}
+
+.modal-content label {
+  font-weight: bold;
+  margin-top: 10px;
+}
+  
+  .action-buttons{
+    margin-top: 10px;
+  }
+
+  button.upload-button {
+    width:fit-content;
+    border-radius: 5px;
+    border: none;
+    padding: 5px 10px;
+    background-color: #95bb8f;
+    color: #000000;
+  }
+
+  button.close-button {
+    margin-left: 20px;
+    width:fit-content;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    background-color: #c5907e;
+  }
+
+  button.delete-button {
+    margin-left: 10px;
+    margin-top: 10px !important;
+    width:fit-content;
+    border: none;
+    border-radius: 5px;
+    background-color: #ff7b7b;
+  }
+
+  button:hover {
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.9);
+  }
+
+  .user-button {
+    margin-left: 100px;
+    margin-top: 5px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .user-button.selected {
+    background-color: #ccc;
+    color: #666;
+    cursor: not-allowed;
+  }
+
+  .user-items {
+    padding: 5px;
+    list-style-type:none;
+    font-weight: 600;
+  }
+  
