@@ -1,0 +1,15 @@
+project name
+project progress (loading screen)
++ symbol for new project
+	projet name
+	add users
+		tasks (text field)
+	create project button
+that creates project card
+
+
+project card
+edit button
+users and their projects
+documents ( documents list, upload button, document name click then download)
+	

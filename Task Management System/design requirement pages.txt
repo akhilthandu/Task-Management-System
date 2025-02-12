@@ -1,0 +1,6 @@
+login page
+register page
+home page
+add project page
+project open page
+user task display and add task page

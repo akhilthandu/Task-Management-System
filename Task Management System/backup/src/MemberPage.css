@@ -1,0 +1,80 @@
+.member-page {
+    position: relative;
+    padding:  20px 40px;
+    background-color: #F5EFE6; /* Light cream background */
+    min-height: 100vh; /* Ensure the dashboard takes up the full height of the viewport */
+}
+
+.addtextclass {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    max-width: 300px; /* Optional, to limit width */
+}
+
+.addtaskbutton {
+    background-color: #4F6F52;
+    color: #E8DFCA;
+    border-radius: 5px;
+    border: none;
+    padding: 5px 10px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.taskslist {
+    font-size: 20px;
+}
+
+.member-name {
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.member-and-progress{
+    display: flex;
+    flex-direction: row; /* Align items in a row */
+    justify-content: space-between; /* Space out elements */
+    align-items: center; /* Vertically center elements */
+    width: 100%; /* Optional: Set container width to 100% of its parent */
+    padding: 10px 0px;
+    background-color: #F5EFE6; /* Light cream background */
+}
+
+.memberpage-progress-bar {
+    background-color: #3A3A3A; /* Light Cream */
+    color:#1A4D2E;
+    border-radius: 5px;
+    min-height: 50px;
+    width: 50%;
+    flex-shrink: 0;
+    margin-left: auto;
+}
+
+/* Progress fill color */
+.memberpage-progress-bar .progress-bar {
+    background-color: #C2A9A1; /* Soft Green */
+    color:#111111bd;
+    font-weight: bold;
+    font-size: large ;
+    height: 100% ; /* Fill the height of the container */
+    border-radius: 5px;
+    text-align: center;
+}
+
+.memberpage-progress-bar .progress {
+    background-color: #5c51518e; /* Match the background */
+    border-radius: 5px; /* Keep it rounded */
+    min-height: 50px;
+    border: 1px solid #111111;
+}
+
+/* Centering the label within the progress bar */
+.memberpage-progress-bar .progress-bar span {
+    color: #1A4D2E; /* Beige text color for contrast */
+    font-weight: bold;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}

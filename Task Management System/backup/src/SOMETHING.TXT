@@ -1,0 +1,38 @@
+add project button popup
+
+input from user:
+project name
+deadline
+members
+
+input to backend:
+projectname
+deadline
+memberids
+progress as 0
+creator id
+
+-----------------------------------------------
+
+edit project button
+
+features:
+change deadline
+add user
+remove user (double check warning message)
+
+-----------------------------------------------
+
+documents popup
+
+features: delete, upload, download
+delete feature should be availble to only project owner and documnet owner
+
+-----------------------------------------------
+
+direct urls inaccessable: url access should be banned unless they are logged in
+
+-----------------------------------------------
+
+
+
